@@ -1,0 +1,620 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+p{
+	line-height: 1.5em;
+	font-size: 1.5em;
+	padding: 1em 0;
+}
+
+header{
+	background: black;
+}
+
+.link{
+	position: absolute;
+	top: 20px;
+	width: 180px;
+	height: 70px;
+	z-index: 100;
+}
+h1 {
+
+	background-image: url(../img/logo.svg);
+	background-position: center;
+	background-size: cover;
+	height: 70px;
+	width: 180px;
+	
+	font-size: 0;
+	top: 20px;
+}
+
+
+.navbar{
+	padding: 4em 0;
+}
+
+.nav-link{
+	font-size: 1.5em;
+}
+
+.navbar-nav{
+	margin-top: 2em;
+}
+.nav-item{
+	padding: 1em 0;
+}
+.carousel-inner{
+	height: 85vh;
+	width: 100%;
+}
+
+.carousel-item {
+	height: 100%;
+
+}
+
+.carousel-inner img{
+	height: 100%;
+	width: 100%;
+}
+
+
+#nosotros {
+	margin-top: 5em;
+}
+
+#nosotros h2{
+	text-align: center;
+	font-size: 3.5em;
+}
+#nosotros p{
+	text-align: center;
+}
+
+.btn-success{
+	background-color: black;
+	border: 1px solid black;
+	padding: 1.5em 4em;
+	font-weight: bold;
+	transition-timing-function: ease-in;
+	transition: 0.5s;
+}
+
+
+
+#ofertas {
+	margin-top: 6em;
+	position: relative;
+}
+#ofertas img,#ofertas source{
+	width: 100%;
+}
+
+.oferta-titulos {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.oferta-titulos h3{
+	font-size: 2.5em;
+	color: white;
+}
+
+
+#destacados{
+	margin-top: 7em;
+}
+
+#destacados h2{
+	font-size: 3.5em;
+	text-align: center;
+	padding: 1em 0;
+}
+
+.card{
+	background: #F4F4F4;
+}
+
+.card-title{
+	font-size: 2em;
+}
+
+#destacados .btn{
+	color: white;
+	background: black;
+	font-size: 1.5em;
+	width: 100%;
+}
+
+
+
+
+
+
+footer{
+	background: #292929;
+	margin-top: 5em;
+
+
+}
+
+footer h4{
+	padding: 1em 1em;
+	text-align: left;
+	color: white;
+	font-size: 2em;
+}
+
+.pre-footer{
+	background: gray;
+	
+}
+
+
+.seguinos ul li{
+	display: inline-block;
+	
+	width: 40px;
+	height: 40px;
+
+}
+.seguinos div{
+	padding-left: 2em;
+}
+
+.seguinos a{
+	height: 40px;
+	width: 40px;
+	font-size: 0;
+	position: absolute;
+}
+.instagram{
+	background: url(../img/iconos-redes/instagram.svg);
+	background-position: center;
+	background-size: cover;
+	
+	
+	
+}
+.facebook{
+	background: url(../img/iconos-redes/facebook.svg);
+	background-position: center;
+	background-size: cover;
+	
+	
+}
+
+.nosotros p{
+	color: lightgray;
+}
+.medios-de-pago ul li{
+	list-style: none;
+}
+
+.medios-de-pago img{
+	width: 98px;
+
+}
+/***************** Productos ******************/
+
+#productos img {
+	width: 100%;
+
+}
+
+.imagen-producto{
+	border: 1px solid black;
+}
+.des-producto{
+	background: whitesmoke;
+	padding:1em 0;
+	border: 1px solid black;
+}
+.des-producto p{
+	text-align: left;
+	padding:0 ;
+	
+	padding-left: 10px;
+
+}
+
+.descrip-producto{
+	font-size: 1.2em;
+
+}
+.nombre-producto{
+	text-transform: capitalize;
+	font-size: 2em;
+}
+.des-producto p span{
+	font-size: 1em;
+}
+
+.btn-detalle{
+	width: 95%;
+	background: black;
+	color: white;
+	padding: 1em 0;
+}
+#productos h2{
+	font-size: 2.5em;
+	text-align: center;
+}
+/***************Detalle de Productos*********************/
+
+#detalle-productos{
+	padding-top: 5em ;
+	position: relative;
+}
+#detalle-productos::after{
+	content: '';
+	border: 1px solid black;
+	width: 70%;
+	display: flex;
+	margin: 4em auto;
+}
+#detalle-productos p{
+	text-align: center;
+}
+.nombre-producto-detalle{
+	font-size: 4em;
+	text-align: center;
+
+}
+.precio-producto-detalle{
+	margin-top: 2em;
+	
+}
+.precio-producto-detalle  span{
+
+	font-size: 2em;
+}
+.btn-mas{
+	background: black;
+	color: white;
+	border: 1px solid black;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 1em 4em;
+	transition-timing-function: ease-in;
+	transition:0.5s;
+}
+.boton{
+	display: flex;
+	justify-content: center;
+}
+
+
+/************Sección de Contacto****************/
+
+#contacto{
+	margin-bottom: 5em ;
+
+}
+#contacto h2 {
+	font-size: 3.5em;
+	padding: 1.5em 0;
+
+}
+#contacto h3{
+	font-size: 2em;
+}
+#contacto p{
+	padding: 0;
+}
+
+form label{
+	font-size: 1.5em;
+}
+.form-control{
+	border: 1px solid black;
+}
+form input[type='submit']{
+	background: black;
+	padding: 1em 3em;
+	color: white;
+	border: 1px solid black;
+	text-transform: uppercase;
+	transition-timing-function: ease-in;
+	transition:0.5s;
+}
+iframe{
+	width: 100%;
+	height: 400px;
+}
+
+#contacto div{
+	position: relative;
+}
+#contacto div p{
+	display: flex;
+	justify-content: center;
+
+	flex-direction: column;
+	align-items: center;
+}
+
+#contacto  h2{
+	text-align: center;
+	padding: 3em 0;
+
+}
+.fondo{
+
+	background-image: url("../img/banners/banner.jpg");
+	background-color:rgba(0,0,0,0.5);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	height: 250px;
+}
+
+.mail::before{
+	content: '';
+	background: url("../img/iconos-redes/correo.svg");
+	background-position: center;
+	background-size: cover;
+	height: 88px;
+	width: 84px;
+	margin-bottom: 1em;
+
+}
+.tel::before{
+	content: '';
+	background: url("../img/iconos-redes/telefono.svg");
+	background-position: center;
+	background-size: cover;
+	height: 88px;
+	width: 84px;
+	margin-bottom: 1em;
+
+}
+
+.ubic::before{
+	content: '';
+	background: url("../img/iconos-redes/ubicacion.svg");
+	background-position: center;
+	background-size: cover;
+	height: 88px;
+	width: 84px;
+	margin-bottom: 1em;
+
+}
+
+
+/**************Seccion Gracias| Sección Error*********************/
+
+
+#gracias, #error{
+	margin: 20em 0;
+	background: whitesmoke;
+	padding: 4em 0;
+}
+#gracias h2 , #error h2{
+	font-size: 3em;
+	text-align: center;
+}
+#gracias p, #error p{
+	font-size: 2em;
+	text-align: center;
+}
+
+
+/************** ADMINISTRADOR ************/
+
+#ingreso{
+	margin:  26em  0;
+}
+
+#ingreso form{
+	width: 80%;
+	margin: 1em auto;
+}
+
+#ingreso form button{
+	float: right;
+	font-size: 1.5em;
+	background: black;
+	color: white;
+	border: 1px solid black;
+	padding: 0.5em 1em;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+.fondo-usuario{
+	background: #d1d4d83d;
+	padding: 4em 1em;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 2px 25px 0px rgba(128,128,128,1);
+	-moz-box-shadow: 0px 2px 25px 0px rgba(128,128,128,1);
+	box-shadow: 0px 2px 25px 0px rgba(128,128,128,1);
+
+}
+#ingreso form input{
+	font-size: 1.5em;
+}
+
+.sub-menu{
+	width: 100%;
+	background: lightgray;
+	padding: 1em;
+}
+
+.sub-menu ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.sub-menu ul li a{
+	font-size: 1.5em;
+	color: black;
+
+}
+
+
+#listado-productos{
+	margin: 5em 0;
+
+}
+
+th{
+	font-size: 1.5em;
+}
+td{
+	font-size: 1.5em;
+}
+
+#listado-productos a{
+	font-size: 1.2em;
+	color: white;
+
+	margin: 1em 0;
+	width: 100px;
+}
+
+.btn-eliminar{
+	background: red;
+}
+
+.btn-editar{
+	background: green;
+}
+
+#cargar-productos, #editar-productos{
+	margin: 5em 0;
+}
+#cargar-productos h2, #editar-productos h2{
+	font-size: 2.5em;
+}
+
+#cargar-productos form button , #editar-productos form button{
+	float: right;
+	color: white;
+	background: black;
+	padding: 1em 2em;
+	border: black;
+}
+#cargar-productos input, #editar-productos input{
+	font-size: 1.5em;
+}
+
+#cargar-productos textarea, #editar-productos textarea{
+	font-size: 1.5em;
+}
+
+#cargar-productos .row ,#editar-productos .row{
+	background: lightgray;
+	padding: 2em 0;
+}
+
+#editar-productos .form-fila p{
+	background: white;
+	width: 300px;
+}
+.etiquetas-listado{
+	font-size: 1em;
+}
+
+
+.success{
+	background: green;
+	color: white;
+	font-size: 1.5em;
+	width: 50%;
+	padding: 1em;
+}
+.error{
+	background: red;
+	color: white;
+	font-size: 1.5em;
+	width: 50%;
+}
+
+.footer-admin{
+	margin-top:15em;
+
+}
+
+.form-error p{
+	color: white;
+	background: red;
+	width: 100%;
+	padding: 0.2em 0.2em;
+}
+
+
+/*************Adaptación Pc*******************/
+
+@media (min-width: 764px){
+
+	#ingreso form button:hover{
+
+		background: white;
+		color: black;
+		border: 1px solid black;
+		padding: 0.5em 1em;
+	}
+.btn-success:hover{
+	background-color: black;
+	border:1px solid white;;
+}
+
+.navbar-nav{
+	margin-top: 0;
+}
+.nav-link{
+	padding: 0 ;
+}
+
+.btn-detalle:hover, .btn-mas:hover{
+	background: white;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+}
+#detalle-productos p{
+	text-align: left;
+}
+.nombre-producto-detalle{
+	
+	text-align: left;
+
+}
+
+.etiquetas-productos{
+	font-size: 1.2em;
+	color: gray;
+	text-transform: uppercase;
+
+
+}
+.etiquetas-productos::after{
+content: ' | ';
+}
+.boton{
+	display: block;
+	margin-top: 8em;
+}
+#contacto h2 {
+	text-align: center;
+	
+}
+
+form input[type='submit']:hover{
+	color: black;
+	background: white;
+	border: 1px solid black;
+}
+
+
+}
